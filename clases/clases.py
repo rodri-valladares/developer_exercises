@@ -1,9 +1,21 @@
 import math
 
-
-
 class Circulo():
+    """Clase Circulo. El radio no puede ser menor o igual a cero
+    Se puede crear otro objeto circulo con otro radio multiplicando a el 
+    objeto por un numero mayor a cero.
+
+    >>> circulo_example = Circulo(0)
+    Traceback (most recent call last):
+        ...
+    Exception: El radio no puede tomar valores menores a 0
+
+    >>> circulox= Circulo(2)
+    >>> circulo_example_new = circulox * 2
+    >>> circulo_example_new.radio == 4
+    True
     
+    """
     def __init__(self, radio):
         if radio <= 0:
             raise Exception("El radio no puede tomar valores menores a 0")
