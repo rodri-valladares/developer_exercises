@@ -18,7 +18,23 @@ matrix = np.random.randint(10, size=(5, 5))
 
 
 def buscar_secuencia(lista_matriz):
-    
+    """Función que recibe una lista y busca en ella si existe una secuencia numérica ascendente
+
+    Args:
+        lista_matriz (list): lista a la que se le va a buscar secuencias en sus filas y columnas
+
+    Returns:
+        (indice_comienza_secuencia, indice_termina_secuencia): tupla con los indices de comienzo y fin de la secuencia
+
+    >>> lista1_example = [87, 88, 89, 90, 90]
+    >>> buscar_secuencia(lista1_example)
+    (0, 3)
+
+    >>> lista2_example = [85, 88, 89, 90, 91]
+    >>> buscar_secuencia(lista2_example)
+    (1, 4)
+
+    """
     contador_secuencia = 0
 
     #print(f'Lista recibida: {lista_matriz}')
