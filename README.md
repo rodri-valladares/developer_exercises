@@ -21,5 +21,5 @@ Los ejercicio incluyen doctest. Para ejecutar el de cada archivo:
 python -m doctest <nombre_del_archivo.py> -v
 ```
 
-Ejemplo: python -m doctest <simple.py> -v
+Ejemplo: python -m doctest simple.py -v
 
