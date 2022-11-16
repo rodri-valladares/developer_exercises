@@ -1,2 +1,2 @@
-# developer_exercises
-ejercicios de python para eynes
+# eynes: Developer Exercises
+Ejercicios de python para eynes
